@@ -65,15 +65,26 @@ h1 {
   width: 100%;
 }
 #sideScrollWrapper {
-  overflow-x: scroll;
-  overflow-y: auto;
-  /* flex-wrap: nowrap; */
-  height: 100%;
+  /* overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap; */
   width: 100%;
+  height: 70%;
+  border: solid 1px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  align-items: center;
 }
 .project-tile {
-  height: 70%;
-  width: 200px;
-  border: solid 1px black;
-  border-radius: 20px;
+  flex: 0 0 auto;
+  /* display: inline-block; */
+  height: 95%;
+  width: 75%;
+  border: solid 1px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
+#lastChild {
+  margin-right: 10px;
+}
+
